@@ -1,0 +1,25 @@
+# Ignore Python-specific files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyproj
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+
+# Ignore any compiled files or build artifacts
+/build/
+/dist/
+
+# Ignore any package/dependency files
+/venv/
+/env/
+/site/
